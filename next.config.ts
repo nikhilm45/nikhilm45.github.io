@@ -4,6 +4,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   output: 'export',
+  assetPrefix: '/',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -16,6 +17,7 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
+    unoptimized: true,
   },
 };
 
