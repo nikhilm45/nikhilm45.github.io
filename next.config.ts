@@ -4,7 +4,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   output: 'export',
-  assetPrefix: '/',
+  assetPrefix: '',
   eslint: {
     ignoreDuringBuilds: true,
   },
